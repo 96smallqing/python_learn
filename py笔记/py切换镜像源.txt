@@ -1,0 +1,22 @@
+1 安装python，并且选自动安装，安装包括python的IDLE、pip等
+2 打开cmd命令行,输入pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
+  将pip的下载源永久的切换至阿里巴巴开源镜像站。
+  注：pip是python的包管理器。
+ pip常用操作：pip --version                                #查看pip版本
+	python -m pip install --upgrade pip  #升级pip
+	pip install 第三方包名字                        #下载第三方工具包
+	pip install 第三方包名字 --upgrade      #升级第三方工具包
+	pip uninstall 第三方包名字                   #卸载第三方工具包
+	pip list                                                #查看所有的第三方工具包	
+	pip install 第三个包名字 -i https://pypi.tuna.tsinghua.edu.cn/simple           #使用临时的镜像源下载(这里是清华镜像站)
+
+在cmd命令行中输入pip install wheel numpy pandas jupyter notebook
+就可以在jupyter notebook 中编辑和运行Python代码
+在命令提示符中执行 jupyter noterbook 在打开的界面中新建notebook,运行和编写Python代码，按H键查看快捷键。
+切换文件夹：例如：
+C:\Users\qing>cd E:\python学习
+
+C:\Users\qing>E:
+
+E:\python学习>
+

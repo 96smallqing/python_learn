@@ -1,0 +1,18 @@
+openCV人脸检测
+在cmd命令行中运行  pip install opencv-python  安装机器视觉工具包OpenCV的Python库。
+打开python shell，按CTRL+N 新建python脚本文件。
+可以在命令行中执行py脚本 ，cd到py脚本所在的目录，输入python xxxxx.py 即可。
+历程见demo文件夹
+
+
+
+
+
+
+
+
+
+
+
+
+
